@@ -25,14 +25,11 @@ app_workspace/
 ├── app.overlay
 ├── subsys/
 │   └── ui_engine/
-│       ├── CMakeLists.txt
-│       ├── Kconfig
 │       ├── include/
-│       │   └── ui_engine/
-│       │       ├── ui_engine.h       <-- Main Public API Entrypoint
-│       │       ├── ui_layout.h       <-- Region & Layout Management
-│       │       ├── ui_chart.h        <-- Real-time Plotting Engines
-│       │       └── ui_menu.h         <-- Stateful Menu Navigation
+│       │   └── ui_engine.h       <-- Main Public API Entrypoint
+│       │   ├── ui_layout.h       <-- Region & Layout Management
+│       │   ├── ui_chart.h        <-- Real-time Plotting Engines
+│       │   └── ui_menu.h         <-- Stateful Menu Navigation
 │       └── src/
 │           ├── ui_engine.c       <-- Thread Pipeline & Command Processing
 │           ├── ui_layout.c       <-- Screen Clipping & Dirty Rects
